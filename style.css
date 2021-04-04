@@ -1,0 +1,96 @@
+*{ box-sizing: border-box;
+  font-family: "Poppins";
+  font-size: 100%;
+  font-weight: 100;
+}
+
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.Trasparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  margin: 2% 20% 7% 20%;
+  padding: 5% 5% 7% 5%;
+}
+
+.Logo{
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+h1{
+  font-size:18px;
+  color:#00dd00;
+  text-align: center;
+  margin: 1%;
+}
+
+nav{
+  background-color: #00dd00;
+  width: auto;
+  padding:5px;
+  font-size: 45%;
+  text-align: center;
+}
+
+main{
+  color: white;
+  font-size: 8px;
+  margin-top:15px;
+}
+
+.spessore{
+  margin-top: 3%;
+}
+
+.check{
+  margin:1px;
+}
+
+.grande{
+  font-size: 13px;
+}
+
+#Media{
+  border-color: #ffaf4c;
+  width: 30%;
+  margin-left: 0%;
+  height: 15px;
+  background-color: #ffaf4c;
+  border-radius: 3px;
+  margin-top: 0%;
+  border-width: 0px;
+}
+
+#Lunga{
+  border-color: #09b32e;
+  width: 60%;
+  margin-left: 0%;
+  height: 15px;
+  background-color: #09b32e;
+  border-radius: 3px;
+  margin-top: 0%;
+  border-width: 0px;
+}
+
+#Corta{
+  border-color: #c54242;
+  width: 15%;
+  margin-left: 0%;
+  height: 15px;
+  background-color: #c54242;
+  border-radius: 3px;
+  margin-top: 0%;
+  border-width: 0px;
+}
